@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-print("Meu nome: João")
-cor_favorita = "Vermelho"
-print("Minha cor favorita:", cor_favorita)
-atividade_favorita = "jogar Magic"
-print("Minha atividade favorita:", atividade_favorita)
-animal_favorito = "Cachorro"
-print("Meu animal favorito:", animal_favorito)
+import sys
+
+nome = sys.argv[1]
+cor_favorita = sys.argv[2]
+atividade_favorita = sys.argv[3]
+animal_favorito = sys.argv[4]
+
+print(nome + " " + cor_favorita + " " + atividade_favorita + " " + animal_favorito)
